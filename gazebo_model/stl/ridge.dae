@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.2.3 LTS commit date:2024-10-14, commit time:15:20, hash:0e22e4fcea03</authoring_tool>
+    </contributor>
+    <created>2024-11-01T10:21:22</created>
+    <modified>2024-11-01T10:21:22</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="柱体_003-mesh" name="柱体.003">
+      <mesh>
+        <source id="柱体_003-mesh-positions">
+          <float_array id="柱体_003-mesh-positions-array" count="102">0 1 -1 0 1 1 0.1950903 0.9807853 -1 0.1950903 0.9807853 1 0.3826835 0.9238795 -1 0.3826835 0.9238795 1 0.5555703 0.8314696 -1 0.5555703 0.8314696 1 0.7071068 0.7071068 -1 0.7071068 0.7071068 1 0.8314696 0.5555703 -1 0.8314696 0.5555703 1 0.9238795 0.3826835 -1 0.9238795 0.3826835 1 0.9807853 0.1950903 -1 0.9807853 0.1950903 1 1 0 -1 1 0 1 0.9807853 -0.1950903 -1 0.9807853 -0.1950903 1 0.9238795 -0.3826835 -1 0.9238795 -0.3826835 1 0.8314696 -0.5555703 -1 0.8314696 -0.5555703 1 0.7071068 -0.7071068 -1 0.7071068 -0.7071068 1 0.5555703 -0.8314696 -1 0.5555703 -0.8314696 1 0.3826835 -0.9238795 -1 0.3826835 -0.9238795 1 0.1950903 -0.9807853 -1 0.1950903 -0.9807853 1 0 -1 -1 0 -1 1</float_array>
+          <technique_common>
+            <accessor source="#柱体_003-mesh-positions-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="柱体_003-mesh-normals">
+          <float_array id="柱体_003-mesh-normals-array" count="141">0.09801727 0.9951847 0 0.2902846 0.9569404 0 0.4713967 0.8819213 0 0.6343933 0.7730104 0 0.7730104 0.6343933 0 0.8819213 0.4713967 0 0.9569404 0.2902846 0 0.9951847 0.09801727 0 0.9951847 -0.09801727 0 0.9569404 -0.2902846 0 0.8819213 -0.4713967 0 0.7730104 -0.6343933 0 0.6343933 -0.7730104 0 0.4713967 -0.8819213 0 0.2902846 -0.9569404 0 0.09801727 -0.9951847 0 0 0 1 0.09801727 0.9951847 0 0.2902846 0.9569404 0 0.4713967 0.8819213 0 0.6343933 0.7730104 0 0.7730104 0.6343933 0 0.8819213 0.4713967 0 0.9569404 0.2902846 0 0.9951847 0.09801727 0 0.9951847 -0.09801727 0 0.9569404 -0.2902846 0 0.8819213 -0.4713967 0 0.7730104 -0.6343933 0 0.6343933 -0.7730104 0 0.4713967 -0.8819213 0 0.2902846 -0.9569404 0 0.09801727 -0.9951847 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#柱体_003-mesh-normals-array" count="47" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="柱体_003-mesh-map-0">
+          <float_array id="柱体_003-mesh-map-0-array" count="282">1 1 0.96875 0.5 1 0.5 0.96875 1 0.9375 0.5 0.96875 0.5 0.9375 1 0.90625 0.5 0.9375 0.5 0.90625 1 0.875 0.5 0.90625 0.5 0.875 1 0.84375 0.5 0.875 0.5 0.84375 1 0.8125 0.5 0.84375 0.5 0.8125 1 0.78125 0.5 0.8125 0.5 0.78125 1 0.75 0.5 0.78125 0.5 0.75 1 0.71875 0.5 0.75 0.5 0.71875 1 0.6875 0.5 0.71875 0.5 0.6875 1 0.65625 0.5 0.6875 0.5 0.65625 1 0.625 0.5 0.65625 0.5 0.625 1 0.59375 0.5 0.625 0.5 0.59375 1 0.5625 0.5 0.59375 0.5 0.5625 1 0.53125 0.5 0.5625 0.5 0.53125 1 0.5 0.5 0.53125 0.5 0.3833369 0.05044728 0.4853885 0.2031783 0.4495527 0.3833369 1 1 0.96875 1 0.96875 0.5 0.96875 1 0.9375 1 0.9375 0.5 0.9375 1 0.90625 1 0.90625 0.5 0.90625 1 0.875 1 0.875 0.5 0.875 1 0.84375 1 0.84375 0.5 0.84375 1 0.8125 1 0.8125 0.5 0.8125 1 0.78125 1 0.78125 0.5 0.78125 1 0.75 1 0.75 0.5 0.75 1 0.71875 1 0.71875 0.5 0.71875 1 0.6875 1 0.6875 0.5 0.6875 1 0.65625 1 0.65625 0.5 0.65625 1 0.625 1 0.625 0.5 0.625 1 0.59375 1 0.59375 0.5 0.59375 1 0.5625 1 0.5625 0.5 0.5625 1 0.53125 1 0.53125 0.5 0.53125 1 0.5 1 0.5 0.5 0.341844 0.4717311 0.2968217 0.4853885 0.3833369 0.4495527 0.2968217 0.4853885 0.25 0.49 0.3833369 0.4495527 0.25 0.49 0.25 0.00999999 0.2968217 0.01461154 0.2968217 0.01461154 0.341844 0.02826887 0.3833369 0.05044728 0.3833369 0.05044728 0.4197056 0.08029437 0.4495527 0.1166631 0.4495527 0.1166631 0.4717311 0.1581559 0.4853885 0.2031783 0.4853885 0.2031783 0.49 0.25 0.4853885 0.2968217 0.4853885 0.2968217 0.4717311 0.341844 0.4853885 0.2031783 0.4717311 0.341844 0.4495527 0.3833369 0.4853885 0.2031783 0.4495527 0.3833369 0.4197056 0.4197056 0.25 0.49 0.4197056 0.4197056 0.3833369 0.4495527 0.25 0.49 0.25 0.49 0.2968217 0.01461154 0.3833369 0.05044728 0.3833369 0.05044728 0.4495527 0.1166631 0.4853885 0.2031783 0.25 0.49 0.3833369 0.05044728 0.4495527 0.3833369</float_array>
+          <technique_common>
+            <accessor source="#柱体_003-mesh-map-0-array" count="141" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="柱体_003-mesh-vertices">
+          <input semantic="POSITION" source="#柱体_003-mesh-positions"/>
+        </vertices>
+        <triangles count="47">
+          <input semantic="VERTEX" source="#柱体_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#柱体_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#柱体_003-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 2 0 1 0 0 2 3 1 3 4 1 4 2 1 5 5 2 6 6 2 7 4 2 8 7 3 9 8 3 10 6 3 11 9 4 12 10 4 13 8 4 14 11 5 15 12 5 16 10 5 17 13 6 18 14 6 19 12 6 20 15 7 21 16 7 22 14 7 23 17 8 24 18 8 25 16 8 26 19 9 27 20 9 28 18 9 29 21 10 30 22 10 31 20 10 32 23 11 33 24 11 34 22 11 35 25 12 36 26 12 37 24 12 38 27 13 39 28 13 40 26 13 41 29 14 42 30 14 43 28 14 44 31 15 45 32 15 46 30 15 47 27 16 48 19 16 49 11 16 50 1 17 51 3 17 52 2 17 53 3 18 54 5 18 55 4 18 56 5 19 57 7 19 58 6 19 59 7 20 60 9 20 61 8 20 62 9 21 63 11 21 64 10 21 65 11 22 66 13 22 67 12 22 68 13 23 69 15 23 70 14 23 71 15 24 72 17 24 73 16 24 74 17 25 75 19 25 76 18 25 77 19 26 78 21 26 79 20 26 80 21 27 81 23 27 82 22 27 83 23 28 84 25 28 85 24 28 86 25 29 87 27 29 88 26 29 89 27 30 90 29 30 91 28 30 92 29 31 93 31 31 94 30 31 95 31 32 96 33 32 97 32 32 98 5 33 99 3 33 100 7 33 101 3 34 102 1 34 103 7 34 104 1 35 105 33 35 106 31 35 107 31 36 108 29 36 109 27 36 110 27 37 111 25 37 112 23 37 113 23 38 114 21 38 115 19 38 116 19 39 117 17 39 118 15 39 119 15 40 120 13 40 121 19 40 122 13 41 123 11 41 124 19 41 125 11 42 126 9 42 127 1 42 128 9 43 129 7 43 130 1 43 131 1 44 132 31 44 133 27 44 134 27 45 135 23 45 136 19 45 137 1 46 138 27 46 139 11 46 140</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="柱体_002-mesh" name="柱体.002">
+      <mesh>
+        <source id="柱体_002-mesh-positions">
+          <float_array id="柱体_002-mesh-positions-array" count="0"/>
+          <technique_common>
+            <accessor source="#柱体_002-mesh-positions-array" count="0" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="柱体_002-mesh-normals">
+          <float_array id="柱体_002-mesh-normals-array" count="0"/>
+          <technique_common>
+            <accessor source="#柱体_002-mesh-normals-array" count="0" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="柱体_002-mesh-map-0">
+          <float_array id="柱体_002-mesh-map-0-array" count="0"/>
+          <technique_common>
+            <accessor source="#柱体_002-mesh-map-0-array" count="0" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="柱体_002-mesh-vertices">
+          <input semantic="POSITION" source="#柱体_002-mesh-positions"/>
+        </vertices>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="柱体_001" name="柱体.001" type="NODE">
+        <matrix sid="transform">-1.74846e-8 -0.7 1.02722e-6 0 0 -3.0598e-8 -23.5 0 0.4 -3.0598e-8 4.49011e-14 0 0 0 0 1</matrix>
+        <instance_geometry url="#柱体_003-mesh" name="柱体.001"/>
+      </node>
+      <node id="柱体" name="柱体" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#柱体_002-mesh" name="柱体"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
